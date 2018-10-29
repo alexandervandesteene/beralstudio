@@ -139,9 +139,15 @@ a:active {
     a:active {
         color: #fff;
     }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
     .description {
         margin-bottom: 47%;
@@ -153,7 +159,7 @@ a:active {
     .description {
         margin-bottom: 45%;
     }
-}
+} */
 
 @media screen and (max-width: 480px) {
     .name {
@@ -166,7 +172,7 @@ a:active {
         margin-top: 20px;
         padding-bottom: 20px;
         color: white;
-        margin-bottom: 52%;
+        /* margin-bottom: 52%; */
     }
 
     .keywords {
@@ -185,7 +191,7 @@ a:active {
 }
 
 
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
 
     .description {
         margin-bottom: 50%;
@@ -197,4 +203,4 @@ a:active {
     .description {
         margin-bottom: 40%;
     }
-}
+} */
